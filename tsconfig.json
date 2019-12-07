@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist/js",
+    "sourceMap": true,
+    "jsx": "react",
+    "lib": ["es2015", "dom"],
+    "experimentalDecorators": true,
+    // "strict": true,
+    // "traceResolution": true,
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "noImplicitThis": true
+  }
+}
